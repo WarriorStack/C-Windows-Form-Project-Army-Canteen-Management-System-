@@ -1,0 +1,621 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="productCanOrderDataGridView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="productCanOrderDataGridView.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="productCanOrderDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 361</value>
+  </data>
+  <data name="productCanOrderDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>418, 245</value>
+  </data>
+  <data name="productCanOrderDataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;productCanOrderDataGridView.Name" xml:space="preserve">
+    <value>productCanOrderDataGridView</value>
+  </data>
+  <data name="&gt;&gt;productCanOrderDataGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;productCanOrderDataGridView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;productCanOrderDataGridView.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="YourOrderDataGridView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="YourOrderDataGridView.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="YourOrderDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>612, 361</value>
+  </data>
+  <data name="YourOrderDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>419, 232</value>
+  </data>
+  <data name="YourOrderDataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;YourOrderDataGridView.Name" xml:space="preserve">
+    <value>YourOrderDataGridView</value>
+  </data>
+  <data name="&gt;&gt;YourOrderDataGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;YourOrderDataGridView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;YourOrderDataGridView.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="addButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="addButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="addButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 453</value>
+  </data>
+  <data name="addButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 76</value>
+  </data>
+  <data name="addButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="addButton.Text" xml:space="preserve">
+    <value>-&gt;</value>
+  </data>
+  <data name="&gt;&gt;addButton.Name" xml:space="preserve">
+    <value>addButton</value>
+  </data>
+  <data name="&gt;&gt;addButton.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;addButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;addButton.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="SearchTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="SearchTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 197</value>
+  </data>
+  <data name="SearchTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 41</value>
+  </data>
+  <data name="SearchTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;SearchTextBox.Name" xml:space="preserve">
+    <value>SearchTextBox</value>
+  </data>
+  <data name="&gt;&gt;SearchTextBox.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;SearchTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SearchTextBox.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="SearchButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="SearchButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 170</value>
+  </data>
+  <data name="SearchButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 37</value>
+  </data>
+  <data name="SearchButton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="SearchButton.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;SearchButton.Name" xml:space="preserve">
+    <value>SearchButton</value>
+  </data>
+  <data name="&gt;&gt;SearchButton.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2CircleButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;SearchButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SearchButton.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="AvalableProductlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AvalableProductlabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 15.75pt, style=Bold</value>
+  </data>
+  <data name="AvalableProductlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 320</value>
+  </data>
+  <data name="AvalableProductlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 30</value>
+  </data>
+  <data name="AvalableProductlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="AvalableProductlabel.Text" xml:space="preserve">
+    <value>Avalable Product</value>
+  </data>
+  <data name="&gt;&gt;AvalableProductlabel.Name" xml:space="preserve">
+    <value>AvalableProductlabel</value>
+  </data>
+  <data name="&gt;&gt;AvalableProductlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AvalableProductlabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AvalableProductlabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="yourOrderlabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="yourOrderlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="yourOrderlabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 15.75pt, style=Bold</value>
+  </data>
+  <data name="yourOrderlabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="yourOrderlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>627, 320</value>
+  </data>
+  <data name="yourOrderlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 30</value>
+  </data>
+  <data name="yourOrderlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="yourOrderlabel.Text" xml:space="preserve">
+    <value>Your Order</value>
+  </data>
+  <data name="&gt;&gt;yourOrderlabel.Name" xml:space="preserve">
+    <value>yourOrderlabel</value>
+  </data>
+  <data name="&gt;&gt;yourOrderlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;yourOrderlabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;yourOrderlabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="placeOrderButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="placeOrderButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="placeOrderButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>753, 208</value>
+  </data>
+  <data name="placeOrderButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 44</value>
+  </data>
+  <data name="placeOrderButton.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="placeOrderButton.Text" xml:space="preserve">
+    <value>Place Order</value>
+  </data>
+  <data name="&gt;&gt;placeOrderButton.Name" xml:space="preserve">
+    <value>placeOrderButton</value>
+  </data>
+  <data name="&gt;&gt;placeOrderButton.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;placeOrderButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;placeOrderButton.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="totalProductslabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="totalProductslabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="totalProductslabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 15.75pt, style=Bold</value>
+  </data>
+  <data name="totalProductslabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>619, 116</value>
+  </data>
+  <data name="totalProductslabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 30</value>
+  </data>
+  <data name="totalProductslabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="totalProductslabel.Text" xml:space="preserve">
+    <value>Total Products :</value>
+  </data>
+  <data name="&gt;&gt;totalProductslabel.Name" xml:space="preserve">
+    <value>totalProductslabel</value>
+  </data>
+  <data name="&gt;&gt;totalProductslabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;totalProductslabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;totalProductslabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="totalBillAmtlabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="totalBillAmtlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="totalBillAmtlabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 15.75pt, style=Bold</value>
+  </data>
+  <data name="totalBillAmtlabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="totalBillAmtlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>619, 160</value>
+  </data>
+  <data name="totalBillAmtlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 30</value>
+  </data>
+  <data name="totalBillAmtlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="totalBillAmtlabel.Text" xml:space="preserve">
+    <value>Total Bill Amt. :</value>
+  </data>
+  <data name="&gt;&gt;totalBillAmtlabel.Name" xml:space="preserve">
+    <value>totalBillAmtlabel</value>
+  </data>
+  <data name="&gt;&gt;totalBillAmtlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;totalBillAmtlabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;totalBillAmtlabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="TotalProductsTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="TotalProductsTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="TotalProductsTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>809, 116</value>
+  </data>
+  <data name="TotalProductsTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 25</value>
+  </data>
+  <data name="TotalProductsTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;TotalProductsTextBox.Name" xml:space="preserve">
+    <value>TotalProductsTextBox</value>
+  </data>
+  <data name="&gt;&gt;TotalProductsTextBox.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;TotalProductsTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TotalProductsTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="totalAmtTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="totalAmtTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="totalAmtTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>809, 160</value>
+  </data>
+  <data name="totalAmtTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 25</value>
+  </data>
+  <data name="totalAmtTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;totalAmtTextBox.Name" xml:space="preserve">
+    <value>totalAmtTextBox</value>
+  </data>
+  <data name="&gt;&gt;totalAmtTextBox.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;totalAmtTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;totalAmtTextBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ProductImage.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="ProductImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>441, 174</value>
+  </data>
+  <data name="ProductImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 144</value>
+  </data>
+  <data name="ProductImage.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="ProductImage.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;ProductImage.Name" xml:space="preserve">
+    <value>ProductImage</value>
+  </data>
+  <data name="&gt;&gt;ProductImage.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2PictureBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;ProductImage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductImage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TypeComboBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="TypeComboBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="TypeComboBox.Items" xml:space="preserve">
+    <value>Toiletries</value>
+  </data>
+  <data name="TypeComboBox.Items1" xml:space="preserve">
+    <value>Household Requisites</value>
+  </data>
+  <data name="TypeComboBox.Items2" xml:space="preserve">
+    <value>General Items</value>
+  </data>
+  <data name="TypeComboBox.Items3" xml:space="preserve">
+    <value>Watches &amp; Stationery</value>
+  </data>
+  <data name="TypeComboBox.Items4" xml:space="preserve">
+    <value>Liquor</value>
+  </data>
+  <data name="TypeComboBox.Items5" xml:space="preserve">
+    <value>Food &amp; Medicine</value>
+  </data>
+  <data name="TypeComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 138</value>
+  </data>
+  <data name="TypeComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 36</value>
+  </data>
+  <data name="TypeComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>147</value>
+  </data>
+  <data name="&gt;&gt;TypeComboBox.Name" xml:space="preserve">
+    <value>TypeComboBox</value>
+  </data>
+  <data name="&gt;&gt;TypeComboBox.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;TypeComboBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TypeComboBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblHiUsername.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblHiUsername.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 18pt, style=Bold</value>
+  </data>
+  <data name="lblHiUsername.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 18</value>
+  </data>
+  <data name="lblHiUsername.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 35</value>
+  </data>
+  <data name="lblHiUsername.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="lblHiUsername.Text" xml:space="preserve">
+    <value>*  Give Stock Order *</value>
+  </data>
+  <data name="&gt;&gt;lblHiUsername.Name" xml:space="preserve">
+    <value>lblHiUsername</value>
+  </data>
+  <data name="&gt;&gt;lblHiUsername.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHiUsername.Parent" xml:space="preserve">
+    <value>guna2Panel1</value>
+  </data>
+  <data name="&gt;&gt;lblHiUsername.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="guna2Panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="guna2Panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="guna2Panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1031, 80</value>
+  </data>
+  <data name="guna2Panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>148</value>
+  </data>
+  <data name="&gt;&gt;guna2Panel1.Name" xml:space="preserve">
+    <value>guna2Panel1</value>
+  </data>
+  <data name="&gt;&gt;guna2Panel1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;guna2Panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;guna2Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1031, 595</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>purchaseOrder</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>purchaseOrderForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
